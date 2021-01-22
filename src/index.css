@@ -1,0 +1,12 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 50px;
+  background: linear-gradient(90deg, #b6e5fd 0%, #66ccff 10%, #66ccff 90%, #b6e5fd 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}

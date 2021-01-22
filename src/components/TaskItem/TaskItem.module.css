@@ -1,0 +1,63 @@
+.TaskItem {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.TaskItem .p {
+  word-break: break-word;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px 10px;
+  width: 404px;
+  min-height: 48px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  color: rgb(33, 77, 80);
+  line-height: 16px;
+  border: 2px solid rgb(93, 155, 248);
+  border-radius: 4px;
+  transition: background-color .4s;
+}
+
+.TaskItem .p:hover {
+  cursor: pointer;
+  background-color: rgb(214, 228, 250);
+}
+
+.TaskItem .p.completed {
+  color: rgb(8, 80, 80);
+  text-decoration: line-through;
+  border-color: rgb(8, 80, 80);
+  background-color: rgb(214, 228, 250);
+  transition: border-color .4s;
+}
+
+.TaskItem .p.completed:hover {
+  cursor: pointer;
+  border-color: rgb(253, 130, 48);
+}
+
+
+
+.TaskItem button {
+  width: 100px;
+  height: 48px;
+  background-color: rgb(214, 228, 250);
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(93, 155, 248);
+  border: 2px solid rgb(93, 155, 248);
+  border-radius: 4px;
+  outline: none;
+  margin-left: 10px;
+  transition: background-color .4s, border .2s, color .4s;
+}
+
+.TaskItem button:hover {
+  cursor: pointer;
+  background-color:rgb(219, 82, 82);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
