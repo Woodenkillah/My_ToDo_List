@@ -1,6 +1,5 @@
 .Form {
   margin: 0;
-  margin-top: 50px;
 }
 
 .Form .input {
@@ -34,12 +33,12 @@
   border-radius: 4px;
   outline: none;
   margin-left: 10px;
-  transition: background-color .4s, border-color 0.4s;;
+  transition: background-color 0.4s, border-color 0.4s;
 }
 
 .Form button:hover {
   cursor: pointer;
-  background-color: rgb(93, 155, 248); 
+  background-color: rgb(93, 155, 248);
 }
 
 .Form .message {

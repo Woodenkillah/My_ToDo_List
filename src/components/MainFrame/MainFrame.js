@@ -8,6 +8,7 @@ class MainFrame extends React.Component{
 
     return (
       <div className={classes.MainFrame}>
+        <h1>Todo List</h1>
         <TodoList/>
       </div>
     )

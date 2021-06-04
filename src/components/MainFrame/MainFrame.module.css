@@ -1,5 +1,13 @@
 .MainFrame {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MainFrame h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 2px 2px rgba(0, 5, 5, 0.212);
 }
